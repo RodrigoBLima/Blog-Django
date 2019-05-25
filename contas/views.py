@@ -6,7 +6,7 @@ from django.shortcuts import render, HttpResponse
 # Create your views here.
 
 def paginaInicial(request):
-    return render(request, "contas/home.html")
+    return render(request, 'contas/home.html')
 
 # view de login
 def paginaLogin(request):
