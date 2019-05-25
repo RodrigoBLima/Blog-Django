@@ -6,11 +6,11 @@ from django.shortcuts import render, HttpResponse
 # Create your views here.
 
 def paginaInicial(request):
-    return HttpResponse("Bem vindo")
+    return render(request, "contas/home.html")
 
 # view de login
 def paginaLogin(request):
-    return HttpResponse("Pagina de Login")
+    return render(request, "contas/login.html")
 
 def paginaRegistro(request):
-    return HttpResponse("Página de Registro")
+    return render(request, "contas/registro.html")
