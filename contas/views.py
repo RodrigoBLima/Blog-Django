@@ -7,3 +7,10 @@ from django.shortcuts import render, HttpResponse
 
 def paginaInicial(request):
     return HttpResponse("Bem vindo")
+
+# view de login
+def paginaLogin(request):
+    return HttpResponse("Pagina de Login")
+
+def paginaRegistro(request):
+    return HttpResponse("Página de Registro")
